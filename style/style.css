@@ -51,37 +51,81 @@
 }
 /* main 2 */
 .m2{
-    margin: 90px 221px;
+    margin: 90px 152px;
     text-align: center;
 
 }
 .m2-title{
     padding: 48px 144px;
 }
+.m2-video{
+    padding: 32px;
+}
 .video-frame {
 
      border-radius: 10px;
 }
 /* main 3 */
-.skills{
+.skills {
     margin: 151px 150px;
     text-align: center;
+}
 
-}
-.skills-container{
+.skills-container {
     display: flex;
-     justify-content: space-around;
+    justify-content: space-around;
 }
-.skill{
+
+.skill {
     padding: 30px;
     text-align: left;
+
+    border-radius: 5px;
+    margin-right: 24px;
+}
+
+.skill-s {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+
+.text-center {
+    padding: 0 97px;
+}
+
+.section-title {
+   
+    margin-bottom: 20px;
+}
+
+.section-description {
     
-     border-radius: 5px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 40px;
 }
-.text-center{
-    padding:px 97px; 
+
+.skill img {
+    width: 100px;
+    height: 100px;
+
+    margin-bottom: 20px;
 }
+
+.skill-title {
+    
+    margin-bottom: 10px;
+}
+
+.skill-description {
+    
+    margin-bottom: 20px;
+}
+
+.skill a {
+    color: #0D1321;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
 /* main 4 */
 
 .s4-title {

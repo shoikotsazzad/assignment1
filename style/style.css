@@ -61,6 +61,9 @@ body {
 .s-title-1 p {
   text-align: left;
 }
+.m1-btn {
+  padding: 0px 15px;
+}
 
 /* main 2 */
 .m2 {
@@ -145,13 +148,14 @@ body {
 /* main 4 */
 
 .s4-title {
-  margin: 48px 152px;
+  /* margin: 48px 152px; */
   text-align: center;
 
   background-image: url("../assets/handshake.jpg");
   border-radius: 10px;
   color: #ffffff;
   padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .s4-text {
@@ -160,7 +164,7 @@ body {
 }
 
 .s4-full {
-  padding: 64px 48px;
+  margin: 64px 48px;
 
   border-radius: 10px;
 }
@@ -176,11 +180,18 @@ body {
 .s4-fb button {
   padding: 10px 20px;
   background-color: #ffffff;
-  color: #0d1321;
+  /* color: #0d1321; */
   border: none;
 
   border-radius: 5px;
   cursor: pointer;
+}
+.s4-text h3 {
+  font-size: 2em;
+}
+
+.s4-text p {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* footer part */
